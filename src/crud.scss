@@ -1,0 +1,72 @@
+.top {
+  background-color: rgb(239, 225, 23);
+  padding: 10px;
+  .bin {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  h1 {
+    color: rgb(0, 61, 183);
+    margin: 0, 5px;
+  }
+  .sort {
+    margin: 0 20px;
+    display: flex;
+    justify-content: flex-start;
+    display: flex;
+  }
+}
+
+.card-header {
+  background-color: #20c997;
+  border-color: #20c997;
+  color: azure;
+}
+
+.card {
+  border-color: #20c997;
+}
+
+.list {
+  .bin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 50%;
+      strong {
+        width: 150px;
+      }
+      small {
+        margin: 0 10px;
+      }
+      span {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 0 10px;
+        background-color: dodgerblue;
+      }
+    }
+    .buttons {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  .modal-body {
+    min-width: 400px;
+  }
+}
